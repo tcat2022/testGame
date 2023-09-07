@@ -72,6 +72,23 @@ if( num > 0) {
   }
 }
 
+function up() {
+    slideUp();
+    setTwo();
+}
+function down() {
+    slideDown();
+    setTwo();
+}
+function left() {
+    slideLeft();
+    setTwo();
+}
+function right() {
+    slideRight();
+    setTwo();
+}
+
 document.addEventListener('keyup', (e) => {
     if(e.code == "ArrowLeft") {
         slideLeft();
